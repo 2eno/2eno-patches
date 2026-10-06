@@ -26,10 +26,59 @@ enable pre-releases for this source.
 ## 🩹 Patches list
 
 <!-- PATCHES_START EXPANDED -->
+> **[v1.0.0-dev.1](https://github.com/2eno/2eno-patches/releases/tag/v1.0.0-dev.1)**&nbsp;&nbsp;•&nbsp;&nbsp;`dev`&nbsp;&nbsp;•&nbsp;&nbsp;17 patches total
+<details open>
+<summary>📦 Spotify&nbsp;&nbsp;•&nbsp;&nbsp;10 patches</summary>
+<br>
 
-<!-- Do not modify this section by hand. The patch list is generated when release.yml creates a new release. -->
+| 💊&nbsp;Patch | 📜&nbsp;Description | ⚙️&nbsp;Options |
+|----------|----------------|-----------|
+| [Block popup ads](#block-popup-ads) | Blocks fullscreen promotions ("Pendragon" messages) shown when opening the app. |  |
+| [Fix third party launchers widgets](#fix-third-party-launchers-widgets) | Allows the Spotify widgets to be added to third party launchers. |  |
+| [Hide Premium tab](#hide-premium-tab) | Removes the "Premium" tab from the bottom navigation bar. |  |
+| [Hide ad sections](#hide-ad-sections) | Removes brand ad sections from the home and search page. |  |
+| [Hide ad views](#hide-ad-views) | Hides ad banners, display ads and the ad player. |  |
+| [Hide context menu upsells](#hide-context-menu-upsells) | Removes "Premium" entries from the context menus of songs, albums and playlists. |  |
+| [Hide playlist ads](#hide-playlist-ads) | Removes ads embedded into playlists. |  |
+| [Hide video ads](#hide-video-ads) | Disables the video ad plugin of the now playing view. |  |
+| [Mute audio ads](#mute-audio-ads) | Mutes the music stream while an audio ad plays and restores the volume afterwards. Enabling "Device broadcast status" in the Spotify settings improves the ad detection. |  |
+| [Sanitize sharing links](#sanitize-sharing-links) | Removes the tracking parameters (si, utm_source) from shared and copied links. |  |
 
-#### The list of patches will be shown here after the first release.
+</details>
+
+<details open>
+<summary>📦 Kleinanzeigen&nbsp;&nbsp;•&nbsp;&nbsp;3 patches</summary>
+<br>
+
+| 💊&nbsp;Patch | 📜&nbsp;Description | ⚙️&nbsp;Options |
+|----------|----------------|-----------|
+| [Hide Pur](#hide-pur) | Hides the offers of the ad free subscription "Kleinanzeigen Pur". |  |
+| [Hide ads](#hide-ads) | Hides ads in the feed, search results and listings. |  |
+| [Sanitize sharing links](#sanitize-sharing-links) | Removes the tracking parameters (utm_*) from shared listing and profile links. |  |
+
+</details>
+
+<details open>
+<summary>📦 InterPals&nbsp;&nbsp;•&nbsp;&nbsp;1 patch</summary>
+<br>
+
+| 💊&nbsp;Patch | 📜&nbsp;Description | ⚙️&nbsp;Options |
+|----------|----------------|-----------|
+| [Hide ads](#hide-ads) | Blocks banner, interstitial, rewarded, app open and native Google ads. |  |
+
+</details>
+
+<details open>
+<summary>📦 Untappd&nbsp;&nbsp;•&nbsp;&nbsp;3 patches</summary>
+<br>
+
+| 💊&nbsp;Patch | 📜&nbsp;Description | ⚙️&nbsp;Options |
+|----------|----------------|-----------|
+| [Hide ads](#hide-ads) | Blocks banner, interstitial, rewarded, app open and native Google ads. |  |
+| [Hide feed ads](#hide-feed-ads) | Removes the ad slots from the activity feed. |  |
+| [Hide sponsored content](#hide-sponsored-content) | Removes sponsored beers, venues and posts from all lists. |  |
+
+</details>
 
 <!-- PATCHES_END -->
 
