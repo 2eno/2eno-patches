@@ -1,5 +1,6 @@
 package app.twoeno.patches.shared
 
+import app.morphe.patcher.extensions.InstructionExtensions.addInstructions
 import app.morphe.patcher.extensions.InstructionExtensions.getInstruction
 import app.morphe.patcher.extensions.InstructionExtensions.instructions
 import app.morphe.patcher.patch.PatchException
@@ -23,6 +24,22 @@ internal fun Method.parameterRegister(index: Int): Int {
         }
     }
     return register
+}
+
+/**
+ * Passes the object parameter at [index] through a static extension method `(Ljava/lang/Object;)Ljava/lang/Object;`
+ * at the start of the method, and continues with its result.
+ */
+internal fun MutableMethod.replaceParameter(index: Int, extensionMethod: String) {
+    val register = parameterRegister(index)
+    addInstructions(
+        0,
+        """
+            invoke-static/range { v$register .. v$register }, $extensionMethod
+            move-result-object v$register
+            check-cast v$register, ${parameterTypes[index]}
+        """,
+    )
 }
 
 /**
