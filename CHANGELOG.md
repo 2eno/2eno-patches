@@ -1,3 +1,13 @@
+## [1.1.0](https://github.com/2eno/2eno-patches/compare/v1.0.1...v1.1.0) (2026-10-10)
+
+### 🐛 Bug Fixes
+
+* **Kleinanzeigen:** Support the obfuscated app and hide promoted sellers ([5ec03a5](https://github.com/2eno/2eno-patches/commit/5ec03a58a1ea355503a22e63be7f06c069433d2e))
+
+### ✨ New Features
+
+* **InterPals:** Add Disable ad placements, Download photos and Feed age and gender filter ([bb2c664](https://github.com/2eno/2eno-patches/commit/bb2c664343d612bead14b64d9939db08993e7924))
+
 ## [1.1.0-dev.2](https://github.com/2eno/2eno-patches/compare/v1.1.0-dev.1...v1.1.0-dev.2) (2026-10-10)
 
 ### 🐛 Bug Fixes
