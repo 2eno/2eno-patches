@@ -26,7 +26,7 @@ enable pre-releases for this source.
 ## 🩹 Patches list
 
 <!-- PATCHES_START EXPANDED -->
-> **[v1.1.0-dev.1](https://github.com/2eno/2eno-patches/releases/tag/v1.1.0-dev.1)**&nbsp;&nbsp;•&nbsp;&nbsp;`dev`&nbsp;&nbsp;•&nbsp;&nbsp;20 patches total
+> **[v1.1.0-dev.2](https://github.com/2eno/2eno-patches/releases/tag/v1.1.0-dev.2)**&nbsp;&nbsp;•&nbsp;&nbsp;`dev`&nbsp;&nbsp;•&nbsp;&nbsp;20 patches total
 <details open>
 <summary>📦 Spotify&nbsp;&nbsp;•&nbsp;&nbsp;10 patches</summary>
 <br>
@@ -66,7 +66,7 @@ enable pre-releases for this source.
 | 💊&nbsp;Patch | 📜&nbsp;Description | ⚙️&nbsp;Options |
 |----------|----------------|-----------|
 | [Hide Pur](#hide-pur) | Hides the offers of the ad free subscription "Kleinanzeigen Pur". |  |
-| [Hide ads](#hide-ads) | Hides ads in the feed, search results and listings. |  |
+| [Hide ads](#hide-ads) | Hides ads in the feed, search results and listings, and the promoted sellers in the feed. |  |
 | [Sanitize sharing links](#sanitize-sharing-links) | Removes the tracking parameters (utm_*) from shared listing and profile links. |  |
 
 </details>

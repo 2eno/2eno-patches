@@ -1,6 +1,6 @@
 {
   "NOTE": "Do NOT manually edit this file. This file is automatically updated when semantic release (release.yml) runs. Manually editing this file can break your releases and break third party tools that use this file.",
-  "version": "1.1.0-dev.1",
+  "version": "1.1.0-dev.2",
   "patches": [
     {
       "name": "Block popup ads",
@@ -291,7 +291,7 @@
     },
     {
       "name": "Hide ads",
-      "description": "Hides ads in the feed, search results and listings.",
+      "description": "Hides ads in the feed, search results and listings, and the promoted sellers in the feed.",
       "default": true,
       "category": null,
       "dependencies": [],

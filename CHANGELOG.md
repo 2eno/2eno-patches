@@ -1,3 +1,9 @@
+## [1.1.0-dev.2](https://github.com/2eno/2eno-patches/compare/v1.1.0-dev.1...v1.1.0-dev.2) (2026-10-10)
+
+### 🐛 Bug Fixes
+
+* **Kleinanzeigen:** Support the obfuscated app and hide promoted sellers ([5ec03a5](https://github.com/2eno/2eno-patches/commit/5ec03a58a1ea355503a22e63be7f06c069433d2e))
+
 ## [1.1.0-dev.1](https://github.com/2eno/2eno-patches/compare/v1.0.1...v1.1.0-dev.1) (2026-10-10)
 
 ### ✨ New Features
