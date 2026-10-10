@@ -26,7 +26,7 @@ enable pre-releases for this source.
 ## 🩹 Patches list
 
 <!-- PATCHES_START EXPANDED -->
-> **[v1.0.1](https://github.com/2eno/2eno-patches/releases/tag/v1.0.1)**&nbsp;&nbsp;•&nbsp;&nbsp;`main`&nbsp;&nbsp;•&nbsp;&nbsp;17 patches total
+> **[v1.1.0-dev.1](https://github.com/2eno/2eno-patches/releases/tag/v1.1.0-dev.1)**&nbsp;&nbsp;•&nbsp;&nbsp;`dev`&nbsp;&nbsp;•&nbsp;&nbsp;20 patches total
 <details open>
 <summary>📦 Spotify&nbsp;&nbsp;•&nbsp;&nbsp;10 patches</summary>
 <br>
@@ -47,6 +47,19 @@ enable pre-releases for this source.
 </details>
 
 <details open>
+<summary>📦 InterPals&nbsp;&nbsp;•&nbsp;&nbsp;4 patches</summary>
+<br>
+
+| 💊&nbsp;Patch | 📜&nbsp;Description | ⚙️&nbsp;Options |
+|----------|----------------|-----------|
+| [Disable ad placements](#disable-ad-placements) | Turns off all ad placements of the app, also the ones shown before the ad config is loaded. |  |
+| [Download photos](#download-photos) | Adds "Download photo" to the menu of the photo viewer. |  |
+| [Feed age and gender filter](#feed-age-and-gender-filter) | Adds "Age & gender" to the filter of the feed. |  |
+| [Hide ads](#hide-ads) | Blocks banner, interstitial, rewarded, app open and native Google ads. |  |
+
+</details>
+
+<details open>
 <summary>📦 Kleinanzeigen&nbsp;&nbsp;•&nbsp;&nbsp;3 patches</summary>
 <br>
 
@@ -55,16 +68,6 @@ enable pre-releases for this source.
 | [Hide Pur](#hide-pur) | Hides the offers of the ad free subscription "Kleinanzeigen Pur". |  |
 | [Hide ads](#hide-ads) | Hides ads in the feed, search results and listings. |  |
 | [Sanitize sharing links](#sanitize-sharing-links) | Removes the tracking parameters (utm_*) from shared listing and profile links. |  |
-
-</details>
-
-<details open>
-<summary>📦 InterPals&nbsp;&nbsp;•&nbsp;&nbsp;1 patch</summary>
-<br>
-
-| 💊&nbsp;Patch | 📜&nbsp;Description | ⚙️&nbsp;Options |
-|----------|----------------|-----------|
-| [Hide ads](#hide-ads) | Blocks banner, interstitial, rewarded, app open and native Google ads. |  |
 
 </details>
 
